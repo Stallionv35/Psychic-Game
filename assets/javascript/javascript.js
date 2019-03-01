@@ -36,6 +36,7 @@ document.onkeydown = function (event) {
 
     if (guessesLeft <= 0) {
         losses++;
+        guessesLeft = 9;
         document.getElementById("losses").innerHTML = losses;
     }
 } 
