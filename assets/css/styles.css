@@ -1,3 +1,12 @@
+#wins {
+    display: inline-block;
+}
+#losses {
+    display: inline-block;
+}
 #guesses {
     display: inline-block;
+}
+#guessesLeft {
+    display: inline-block
 }
